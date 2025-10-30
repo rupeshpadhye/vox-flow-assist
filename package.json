@@ -1,16 +1,16 @@
 {
-    "name": "vox-mvp",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": {},
-    "dependencies": {
-        "concurrently": "^3.1.0",
-        "rimraf": "^2.5.4"
-    },
-    "scripts": {
-        "clean": "concurrently \"rimraf node_modules\" \"cd client && rimraf node_modules build\" \"cd server && rimraf node_modules build\"",
-        "install": "(cd client && npm i) && (cd server && npm i)",
-        "dx": "concurrently \"cd client && PORT=5173 npm run dev\" \"cd server && PORT=3000 npm start\""
-    },
-    "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  "name": "vox-mvp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "dependencies": {
+    "concurrently": "^3.1.0",
+    "rimraf": "^2.5.4"
+  },
+  "scripts": {
+    "clean": "concurrently \"rimraf node_modules\" \"cd client && rimraf node_modules build\" \"cd server && rimraf node_modules build\"",
+    "install": "(cd client && npm i) && (cd server && npm i)",
+    "dx": "concurrently \"cd client && PORT=5173 npm run dev\" \"cd server && PORT=4333 npm start\""
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }

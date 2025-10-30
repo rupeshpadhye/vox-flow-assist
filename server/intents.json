@@ -1,0 +1,10 @@
+{
+  "apply_macro": "Apply a macro to the ticket. Example: apply Test123 macro.",
+  "submit_ticket": "Save the ticket or changes made.",
+  "ChangeAssignee": "Change the ticket's assignee to a specific person.",
+  "CloseTicket": "Close the current ticket.",
+  "ReopenTicket": "Reopen a previously closed ticket.",
+  "AddComment": "Add a comment to the ticket.",
+  "UpdatePriority": "Change ticket priority.",
+  "TextEnhance": "Modify or rewrite text based on user instructions (like make polite, number items, repeat, etc)."
+}
